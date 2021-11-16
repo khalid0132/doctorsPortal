@@ -1,0 +1,32 @@
+.testimonial-container{
+    text-align: left;
+}
+.testimonial-container img {
+    height: 100px;
+    text-align: right;
+}
+
+.testimonial-container .container {
+    background: url('../../../images/quote.png');
+    background-repeat: no-repeat;
+    background-position: top-right;
+    background-size: 150px;
+}
+
+
+
+
+/* .testimonials .container{
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+}
+.testimonials .card{
+    border-color: transparent;
+}
+
+.testimonials .card .card-footer{
+    background: transparent;
+    border: 0;
+} */

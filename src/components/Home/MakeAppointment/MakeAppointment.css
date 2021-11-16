@@ -1,0 +1,26 @@
+.make-appointment{
+    background: url('../../../images/appointment-chair.png');
+    /* background-position: center center; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 420px;
+    position: relative;
+    z-index: 1;
+}
+.make-appointment::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background: #3D4558;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -50;
+
+}
+.make-appointment img {
+    height: 550px;
+    transform: translateY(-130px)
+}
