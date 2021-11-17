@@ -6,7 +6,7 @@ const Contact = () => {
         <section className="contact my-5 py-5">
         <div className="container">
             <div className="section-header text-center text-white mb-5">
-                 <h5 style={{color: "#1CC7C1"}} className="text-uppercase text-center mt-5">Contact</h5>
+                 <h5 className="text-brand fw-bold text-uppercase text-center mt-5">Contact</h5>
                  <h1>Always  Connect With Ss</h1>
             </div>
             <div className="col-md-9 mx-auto">

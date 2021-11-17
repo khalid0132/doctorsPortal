@@ -31,7 +31,7 @@ const Testimonials = () => {
         <section className="testimonial-container mt-5">
             <div className="container">
                 <div className="text-left">
-                    <h6 className="text-uppercase" style={{color: '#1CC7C1', fontWeight: 'bold'}}>Testimonial</h6>
+                    <h6 className="text-uppercase text-brand fw-bold">Testimonial</h6>
                     <h2 className="mt-3">What's Our Patients <br />Says</h2>
                 </div>
                 <div className="w-100 row mt-4 pt-2">

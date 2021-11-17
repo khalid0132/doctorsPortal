@@ -11,7 +11,7 @@ const MakeAppointment = () => {
                         <img src={doctor} alt="" className="img-fluid" />
                     </div>
                     <div className="col-md-7 text-white py-5">
-                        <h5 style={{color: '#1CC7C1', fontWeight: 'bold'}} className="mt-5 text-uppercase">APPOINTMENT</h5>
+                        <h5 className="text-brand fw-bold mt-5 text-uppercase">APPOINTMENT</h5>
                         <h2 className="my-4">Make an appointment <br/> today</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dicta quas totam, dolor sit nulla?</p>
                         <button className="btn btn-brand">Learn More</button>

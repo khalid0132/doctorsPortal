@@ -50,7 +50,7 @@ const Footer = () => {
                         </ul>   
                         <div className="mt-5">
                             <h6>Call now</h6>
-                            <button className="btn btn-brand w-bold my-5 text-white" style={{background: "#1CC7C1"}}>+46737139307</button>
+                            <button className="btn btn-brand btn-brand fw-bold my-5 text-white">+46 (0) 73 71 39 307</button>
                         </div>
                     </FooterCol>
                 </div>

@@ -5,7 +5,7 @@ import Doctor from '../Doctor/Doctor';
 const Doctors = () => {
     return (
         <div className="mt-5 container">
-            <h6 style={{color: '#1CC7C1', fontWeight: 'bold'}} className="text-uppercase text-center">Our Doctors</h6>
+            <h6 className="text-brand fw-bold text-uppercase text-center">Our Doctors</h6>
             <div className="row">
                 <Doctor></Doctor>
                 <Doctor></Doctor>

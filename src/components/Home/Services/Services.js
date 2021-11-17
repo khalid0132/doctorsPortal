@@ -23,7 +23,7 @@ const servicesData = [
 const Services = () => {
     return (
         <section className="services-container">
-            <h6 style={{color: '#1CC7C1', fontWeight: 'bold'}} className="mt-5">OUR SERVICES</h6>
+            <h6 className="text-brand fw-bold mt-5">OUR SERVICES</h6>
             <h2>Services We Provide</h2>
             <div className="d-flex justify-content-center">
                 <div className="row w-75 mt-5">

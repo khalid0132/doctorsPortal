@@ -33,6 +33,9 @@
   text-transform: uppercase;
   font-weight:600;
 }
+.text-brand {
+  color: #1CC7C1;
+}
 
 @keyframes App-logo-spin {
   from {

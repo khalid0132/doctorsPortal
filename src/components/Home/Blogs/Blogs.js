@@ -31,7 +31,7 @@ const Blogs = () => {
     return (
         <div className = "container">
             <div className="section-header text-center mt-5 mb-5">
-                <h6 className="text-uppercase" style={{color: '#1CC7C1', fontWeight: 'bold'}}>Our Blog</h6>
+                <h6 className="text-uppercase text-brand fw-bold">Our Blog</h6>
                 <h2>From Our Blog News</h2>
             </div>
             <div className="w-100 row mt-4 pt-2">
