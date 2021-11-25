@@ -12,7 +12,11 @@ import Header from "./components/Home/Header/Header";
 import Appointment from "./components/Appointment/Appointment/Appointment";
 import NoMatch from "./components/NoMatch/NoMatch";
 import Login from "./components/Login/Login/Login";
-// import PrivateRoute from "./components/Login/PrivateRoute/PrivateRoute";
+import Dashboard from "./components/Dashboard/Dashboard/Dashboard";
+import AllPatients from "./components/AllPatients/AllPatients/AllPatients";
+import AddDoctor from "./components/Dashboard/AddDoctor/AddDoctor";
+// import PrivateRoute from ".src/components/Login/PrivateRoute/PrivateRoute";
+// import PrivateRoute from "./components/Login/PrivateRoute/PrivateRoute"
 
 export const UserContext = createContext();
 
@@ -21,7 +25,7 @@ function App() {
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <BrowserRouter>
-        <p>e-mail: {loggedInUser.email}</p>
+        <small>{loggedInUser.email}</small>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="header/" element={<Header />} />
@@ -29,6 +33,10 @@ function App() {
 
           <Route path="appointment/" element={<Appointment />} />
           <Route path="login/" element={<Login />} />
+          {/* <Route path="dashboard/" element={<PrivateRoute ><Dashboard /></PrivateRoute>} /> */}
+          <Route path="dashboard/" element={<Dashboard />} />
+          <Route path="allPatients/" element={<AllPatients />} />
+          <Route path="addDoctor/" element={<AddDoctor />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </BrowserRouter>

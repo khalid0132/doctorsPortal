@@ -16,7 +16,7 @@ const Navbar = () => {
                     <a class="nav-link ms-5" href="/login">Login</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link ms-5" href="#">Dental Services</a>
+                    <a class="nav-link ms-5" href="/dashboard">Dashboard</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link ms-5 text-white" href="#">Reviews</a>
