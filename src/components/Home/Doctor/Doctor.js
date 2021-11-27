@@ -5,10 +5,10 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Doctor = ({doctor}) => {
     return (
-        <div className="col-md-4 text-center">
+        <div className="col-md-4 col-sm-6 text-center">
             {
                 doctor.image? <img src={`data:image/jpeg;base64,${doctor.image.img}`} alt="" className="img-fluid" style={{height: '200px'}}/>: 
-                 <img src={`http://localhost:7000/${doctor.img}`} alt="" className="img-fluid" style={{height: '200px'}} />
+                 <img src={`https://afternoon-ocean-10289.herokuapp.com/${doctor.img}`} alt="" className="img-fluid" style={{height: '200px'}} />
             }
             <h4>Dr. {doctor.name}</h4>
             <h6> {doctor.email}</h6>

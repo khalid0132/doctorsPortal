@@ -21,7 +21,7 @@ const Sidebar = () => {
                 </Link>
             </li>
             <li>
-                <Link to="/doctor/patients" className="text-white">
+                <Link to="/allPatients" className="text-white">
                     <FontAwesomeIcon icon={faUsers} /> <span>Patients</span>
                 </Link>
             </li>

@@ -22,7 +22,7 @@ const AppointmentForm = ({modalIsOpen, closeModal, subject, date}) => {
         data.subject = subject;
         data.date = date;
         data.created = new Date();
-        fetch('http://localhost:7000/addAppointment', {
+        fetch('https://afternoon-ocean-10289.herokuapp.com/addAppointment', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
